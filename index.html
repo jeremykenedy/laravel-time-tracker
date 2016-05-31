@@ -8,31 +8,29 @@
     </head>
     <body ng-app="timeTracker" ng-controller="TimeEntry as vm">
 
-        <nav class="navbar navbar-default">
+        <div class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#">Time Tracker</a>
+                    <a class="navbar-brand" href="/">Time Tracker</a>
                 </div>
             </div>
-            <div class="container-fluid time-entry">
-                <div class="timepicker">
-                    <span class="timepicker-title label label-primary">Clock In</span><timepicker ng-model="vm.clockIn" hour-step="1" minute-step="1" show-meridian="true"></timepicker>
-                </div>
-                <div class="timepicker">
-                    <span class="timepicker-title label label-primary">Clock Out</span><timepicker ng-model="vm.clockOut" hour-step="1" minute-step="1" show-meridian="true"></timepicker>
-                </div>
-                <div class="time-entry-comment">
-                    <form class="navbar-form">
-                        <input class="form-control" ng-model="vm.comment" placeholder="Enter a comment"></input>
-                        <button class="btn btn-primary" ng-click="vm.logNewTime()">Log Time</button>
-                    </form>
-                </div>
+        </div>
+        <div class="container time-entry well">
+            <div class="timepicker">
+                <span class="timepicker-title label label-primary">Clock In</span><timepicker ng-model="vm.clockIn" hour-step="1" minute-step="1" show-meridian="true"></timepicker>
             </div>
-        </nav>
-
+            <div class="timepicker">
+                <span class="timepicker-title label label-primary">Clock Out</span><timepicker ng-model="vm.clockOut" hour-step="1" minute-step="1" show-meridian="true"></timepicker>
+            </div>
+            <div class="time-entry-comment">
+                <form class="navbar-form">
+                    <input class="form-control" ng-model="vm.comment" placeholder="Enter a comment"></input>
+                    <button class="btn btn-primary" ng-click="vm.logNewTime()">Log Time</button>
+                </form>
+            </div>
+        </div>
         <div class="container">
             <div class="col-sm-8">
-
                 <div class="well vm" ng-repeat="time in vm.timeentries">
                     <div class="row">
                         <div class="col-sm-8">
@@ -58,21 +56,19 @@
             </div>
         </div>
 
-    <!-- Application Dependencies -->
-    <script type="text/javascript" src="bower_components/angular/angular.js"></script>
-    <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
-    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-    <script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
-    <script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
-    <script type="text/javascript" src="bower_components/angular-resource/angular-resource.js"></script>
-    <script type="text/javascript" src="bower_components/moment/moment.js"></script>
+        <!-- Application Dependencies -->
+        <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+        <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+        <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        <script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+        <script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+        <script type="text/javascript" src="bower_components/angular-resource/angular-resource.js"></script>
+        <script type="text/javascript" src="bower_components/moment/moment.js"></script>
 
-
-
-    <!-- Application Scripts -->
-    <script type="text/javascript" src="scripts/app.js"></script>
-    <script type="text/javascript" src="scripts/controllers/TimeEntry.js"></script>
-    <script type="text/javascript" src="scripts/services/time.js"></script>
+        <!-- Application Scripts -->
+        <script type="text/javascript" src="scripts/app.js"></script>
+        <script type="text/javascript" src="scripts/controllers/TimeEntry.js"></script>
+        <script type="text/javascript" src="scripts/services/time.js"></script>
 
 
     </body>

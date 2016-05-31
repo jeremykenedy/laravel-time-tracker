@@ -31,8 +31,8 @@
 
         vm.timeentries.push({
           "user_id":1,
-          "user_firstname":"Ryan",
-          "user_lastname":"Chenkie",
+          "user_firstname":"Jeremy",
+          "user_lastname":"Kenedy",
           "start_time":vm.clockIn,
           "end_time":vm.clockOut,
           "project_id":1,
