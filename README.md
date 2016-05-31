@@ -6,6 +6,10 @@ A time tracking app that uses Laravel 5.2 and Angular JS.
 | :------------ |
 | Built on Laravel 5.2 |
 | Built on Angular 2 |
+| Built on Bootstrap 4 |
+| Uses Angular Bootstrap 1.3.* |
+| Uses Angular Resource 1.5.* ngResource |
+| Uses Moment.js 2.13.* |
 
 ### 1. Quick Project Setup - Installation
 
@@ -26,7 +30,7 @@ laravel-time-tracker/
 * [Angular JS 2](https://angular.io/docs/ts/latest/)
 * [Angular Bootstrap 1.3.*](https://angular-ui.github.io/bootstrap/)
 * [Angular Resource 1.5.*](https://docs.angularjs.org/api/ngResource)
-* [Bootstrap 3.5.*](http://getbootstrap.com/)
+* [Bootstrap 4.*](http://getbootstrap.com/)
 * [Moment.js 2.13.*](http://momentjs.com/docs/)
 
 ### 4. License

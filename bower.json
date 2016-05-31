@@ -1,0 +1,25 @@
+{
+  "name": "laravel-time-tracker",
+  "homepage": "https://github.com/jeremykenedy/laravel-time-tracker",
+  "authors": [
+    "jeremykenedy <jeremykenedy@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.6",
+    "angular-bootstrap": "^1.3.3",
+    "angular-resource": "^1.5.6",
+    "bootstrap": "^4.*",
+    "moment": "^2.13.0"
+  }
+}
