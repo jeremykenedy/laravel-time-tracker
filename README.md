@@ -20,9 +20,18 @@ A time tracking app that uses Laravel 5.2 and Angular JS.
 ### 2. File Structure
 ```
 laravel-time-tracker/
+    ├── .gitignore
+    ├── bower.json
     ├── LICENSE
     ├── license.svg
-    └── README.md
+    ├── README.md
+	├── bower_components/
+	├── css/
+	├── data/
+	└── scripts/
+	    ├── controllers/
+	    └── services/
+
 ```
 
 ### 3. Libraries Used Documentation
