@@ -17,6 +17,10 @@ A time tracking app that uses Laravel 5.2 and Angular JS.
 
 	`sudo git clone https://github.com/jeremykenedy/laravel-time-tracker.git laravel-time-tracker`
 
+###### b. Pull resources via Bower using the following command in terminal from the projects root folder:
+
+	`bower update`
+
 ### 2. File Structure
 ```
 laravel-time-tracker/
