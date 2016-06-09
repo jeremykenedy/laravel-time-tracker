@@ -1,0 +1,58 @@
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+//VENDOR PREFIXING MIXIN
+@mixin vendorize($property, $value) {
+  -webkit-#{$property}: $value;
+  -moz-#{$property}: $value;
+  -ms-#{$property}: $value;
+  -o-#{$property}: $value;
+  #{$property}: $value;
+}
+
+// APP SHARED
+html,
+body {
+    font-family: 'Lato';
+}
+.fa-btn {
+    margin-right: 6px;
+}
+
+// ANIMATED NAVBAR
+.navbar-toggle .icon-bar {
+  	@include vendorize(transition, all .2s ease-in-out);
+}
+.navbar-toggle:not(.collapsed) {
+	.icon-bar {
+	  	position: relative;
+		&:nth-of-type(2) {
+		    @include vendorize(transform, rotate(45deg));
+		    top: 6px;
+		}
+		&:nth-of-type(3) {
+			@include vendorize(transform, rotate(135deg));
+		}
+		&:nth-of-type(4) {
+			opacity: 0;
+			top: -6px;
+			@include vendorize(transform, rotate(135deg));
+			@include vendorize(transition, opacity .1s ease-in-out);
+		}
+	}
+}
+
+// TIMER
+.time-numbers > *,
+.time-entry > * {
+	display: inline-block;
+}
+
+.timepicker {
+	margin-right: 15px;
+}
+
+.edit-time-entry {
+	background-color: #e0e0e0;
+	padding: 15px;
+	margin: 10px;
+}

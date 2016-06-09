@@ -22,21 +22,11 @@ Thumbs.db
 
 ### DIFFERENT TYPE OF MASTER CONFIGS ###
 .env
-.env-dev
-.env-live
-.env.dev
-.env.production
-.env-*
-/config/blog.php
-/sql
 composer.lock
-
-### ASSET EXCLUSIONS ###
-build/
-sass/build/
-uploads/
-node_modules
 Homestead.yaml
 Homestead.json
-bower_components/*
-node_modules/*
+
+### ASSET EXCLUSIONS ###
+/vendor
+/node_modules
+/public/storage

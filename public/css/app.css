@@ -1,0 +1,36 @@
+html,
+body {
+  font-family: 'Lato'; }
+
+.fa-btn {
+  margin-right: 6px; }
+
+.navbar-toggle .icon-bar {
+  transition: all 0.2s ease-in-out; }
+
+.navbar-toggle:not(.collapsed) .icon-bar {
+  position: relative; }
+  .navbar-toggle:not(.collapsed) .icon-bar:nth-of-type(2) {
+    transform: rotate(45deg);
+    top: 6px; }
+  .navbar-toggle:not(.collapsed) .icon-bar:nth-of-type(3) {
+    transform: rotate(135deg); }
+  .navbar-toggle:not(.collapsed) .icon-bar:nth-of-type(4) {
+    opacity: 0;
+    top: -6px;
+    transform: rotate(135deg);
+    transition: opacity 0.1s ease-in-out; }
+
+.time-numbers > *,
+.time-entry > * {
+  display: inline-block; }
+
+.timepicker {
+  margin-right: 15px; }
+
+.edit-time-entry {
+  background-color: #e0e0e0;
+  padding: 15px;
+  margin: 10px; }
+
+/*# sourceMappingURL=app.css.map */
