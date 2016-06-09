@@ -12,33 +12,42 @@ A simple time tracking app Built on Laravel, Angular JS, and Bootstrap.
 | Uses Angular Resource 1.5.* ngResource |
 | Uses Moment.js 2.13.* |
 
-### 1. Quick Project Setup - Installation
+### I. Quick Project Setup - Installation
 
-###### a. Clone the repository using the following command in terminal:
+###### 1. Clone the repository using the following command in terminal:
 
 	`sudo git clone https://github.com/jeremykenedy/laravel-time-tracker.git laravel-time-tracker`
 
-###### b. Download and Install Node Assets:
+###### 2. Pull and Install Laravel Dependencies:
+
+	`sudo composer update`
+
+###### 3. Download and Install Node Assets:
 
 	`sudo npm install`
 
-###### c. Pull resources via Bower using the following command in terminal from the projects root folder:
+###### 4. Pull resources via Bower using the following command in terminal from the projects root folder:
 
 	`bower update`
 
-###### d. Setup and Ccmpile front-end assets using the following command in terminal from the projects root folder:
+###### 5. Setup and Compile front-end assets using the following command in terminal from the projects root folder:
 
 	`sudo gulp`
 
-###### e. Create your MySQL Database and table then setup your ```.env``` file
+###### 6. Create your MySQL Database and table.
 
+###### 7. Copy the example file  using the following command in terminal from the projects root folder:
 
-###### f. Setup Database Schema using the following command in terminal from the projects root folder:
+	`sudo cp .env.example .env`
+
+###### 8. Configure the Database and SMTP email settings in the ```.env``` file.
+
+###### 9. Setup Database Schema using the following command in terminal from the projects root folder:
 
 	`sudo php artisan migrate`
 
 
-### 2. File Structure
+### II. File Structure
 ```
 angular-timetracker/
     ├── .gitignore
@@ -55,12 +64,12 @@ angular-timetracker/
 
 ```
 
-### 3. Libraries Used Documentation
+### III. Libraries Used Documentation
 * [Angular JS 2](https://angular.io/docs/ts/latest/)
 * [Angular Bootstrap 1.3.*](https://angular-ui.github.io/bootstrap/)
 * [Angular Resource 1.5.*](https://docs.angularjs.org/api/ngResource)
 * [Bootstrap 3.*](http://getbootstrap.com/)
 * [Moment.js 2.13.*](http://momentjs.com/docs/)
 
-### 4. License
+### IV. License
 [MIT license](https://github.com/jeremykenedy/angular-timetracker/blob/master/LICENSE) included
