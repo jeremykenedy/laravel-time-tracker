@@ -13,7 +13,7 @@
 
         {{-- Styles --}}
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-        <link href="css/app.css" rel="stylesheet">
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
     </head>
     <body id="app-layout" ng-app="timeTracker" ng-controller="TimeEntry as vm">
@@ -27,16 +27,16 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
         {{-- Library Scripts --}}
-        <script type="text/javascript" src="/js/vendor/angular.min.js"></script>
-        <script type="text/javascript" src="/js/vendor/ui-bootstrap-tpls.min.js"></script>
-        <script type="text/javascript" src="/js/vendor/angular-resource.min.js"></script>
-        <script type="text/javascript" src="/js/vendor/moment.js"></script>
+        <script type="text/javascript" src="{{ asset('js/vendor/angular.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/vendor/ui-bootstrap-tpls.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/vendor/angular-resource.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/vendor/moment.js') }}"></script>
 
         {{-- App Scripts --}}
-        <script type="text/javascript" src="/js/app.js"></script>
-        <script type="text/javascript" src="/js/controllers/TimeEntry.js"></script>
-        <script type="text/javascript" src="/js/services/time.js"></script>
-        <script type="text/javascript" src="/js/services/user.js"></script>
+        <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/controllers/TimeEntry.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/services/time.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/services/user.js') }}"></script>
 
     </body>
 </html>
