@@ -1,4 +1,4 @@
-# Laravel 5.2, Angular 2, and Bootstrap 3.3.* Time Tracker [![License](http://jeremykenedy.com/license-mit.svg)]()
+# Laravel 5.2, Angular 2, and Bootstrap 3.3.* Time Tracker [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Laravel Angular Time Tracker is a simple time tracking application built on Laravel 5.2, Angular 2, and Bootstrap 3. It uses Laravel's built in authentication, MySQL, Angular Bootstrap 1.3.*, Angular Resource 1.5.* ngResource, jQuery 2.2.4 and Moment.js 2.13.*
 
