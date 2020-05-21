@@ -18,15 +18,15 @@ Laravel Angular Time Tracker is a simple time tracking application built on Lara
 
 ###### 1. Clone the repository using the following command in terminal:
 
-	`sudo git clone https://github.com/jeremykenedy/laravel-time-tracker.git laravel-time-tracker`
+	`git clone https://github.com/jeremykenedy/laravel-time-tracker.git laravel-time-tracker`
 
 ###### 2. Pull and Install Laravel Dependencies:
 
-	`sudo composer update`
+	`composer update`
 
 ###### 3. Download and Install Node Assets:
 
-	`sudo npm install`
+	`npm install`
 
 ###### 4. Pull resources via Bower using the following command in terminal from the projects root folder:
 
@@ -34,19 +34,19 @@ Laravel Angular Time Tracker is a simple time tracking application built on Lara
 
 ###### 5. Setup and Compile front-end assets using the following command in terminal from the projects root folder:
 
-	`sudo gulp`
+	`gulp`
 
 ###### 6. Create your MySQL Database and table.
 
 ###### 7. Copy the example file  using the following command in terminal from the projects root folder:
 
-	`sudo cp .env.example .env`
+	`cp .env.example .env`
 
 ###### 8. Configure the Database and SMTP email settings in the ```.env``` file.
 
 ###### 9. Setup Database Schema using the following command in terminal from the projects root folder:
 
-	`sudo php artisan migrate`
+	`php artisan migrate`
 
 ### II. Libraries Used Documentation
 * [Angular JS 2](https://angular.io/docs/ts/latest/)
